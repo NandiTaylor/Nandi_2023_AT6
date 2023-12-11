@@ -11,8 +11,8 @@ class DataValidator:
 
     def _is_valid_positive_integer(self, input_str):
         try:
-            number = int(input_str)
-            return number > 0
+            value = int(input_str)
+            return value > 0
         except ValueError:
             return False
 
